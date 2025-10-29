@@ -2,7 +2,7 @@
 // desafio super trunfo fase 1 ;
 // variavel1, variavel2 (correspondem a carta 1 e 2 );
 int main(){
-printf("desafio super trunfo!! \n");
+
     char carta1, carta2;
 char estado1;
 char codigo1[5], codigo2[5];
@@ -31,7 +31,7 @@ scanf("%d", &populaçao1);
 printf("Digite a área de sua carta : \n");
 scanf("%f", &areakm²1);
 
-printf("Digite o PIB desua carta : \n ");
+printf("Digite o PIB de sua carta : \n ");
 scanf("%f", &PIB1);
 
 printf("Digite o numero de pontos turisticos de sua carta : \n");
@@ -62,7 +62,7 @@ scanf("%d", &numeropontosturisticos2);
 
 // cooresponde a carta1
 
-printf("CARTA 1  \n", carta1);
+printf("CARTA 1 \n", carta1);
 printf("Estado : %c \n", estado1);
 printf("Código : %s \n", codigo1);
 printf("Nome da cidade : %s \n", cidade1);
