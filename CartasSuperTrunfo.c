@@ -92,28 +92,70 @@ printf("Numero de pontos turisticos : %d \n", numeropontosturisticos2);
 printf("Densidade populacional : %.2f  hab/km² \n", densidade2);
 printf("PIB per capta : %.2f reais \n", pibpercapta2);
 printf("Super poder : %2.f\n", superpoder2);
-// comparando as cartas ;
-
+// comparando as cartas ultilizando if ou else ;
 
 printf("Resultado da comparaçao das cartas:\n");
-printf("populaçao da carta 1 :(%u) é maior que da carta dois: (%u) ? %d\n", populaçao1, populaçao2, populaçao1 > populaçao2);
-printf("Area/km² da carta 1 :(%.2f) é maior que da carta dois: (%.2f) ?%d\n", areakm²1, areakm²2, areakm²1 > areakm²2);
-printf("PIB da carta 1 :(%2.f) é maior que da carta dois: (%.2f) ? %d\n", PIB1, PIB2, PIB1 > PIB2);
-printf("Numero de pontos turisticos da carta 1 :(%d) é maior que da carta dois: (%d) ? %d\n", numeropontosturisticos1, numeropontosturisticos2, numeropontosturisticos1 > numeropontosturisticos2);
-printf("Densidade populacional da carta 1 :(%.2f) é menor que da carta dois: (%.2f) ? %d\n", densidade1, densidade2, densidade1 < densidade2);
-printf("PIB per capta da carta 1 :(%.2f) é maior que da carta dois: (%.2f) ? %d\n", pibpercapta1, pibpercapta2, pibpercapta1 > pibpercapta2);
-printf("Super poder da carta 1 :(%.2f) é maior que da carta dois: (%.2f) ? %d\n", superpoder1, superpoder2, superpoder1 > superpoder2);
-//%c caracter ;
+if (populaçao1 > populaçao2)
+{
+    printf("CARTA 1 VENCEU \n");
+}
+else{
+    printf("CARTA 2 VENCEU \n");
+}
+
+if (areakm²1 > areakm²2)
+{
+    printf("CARTA 1 VENCEU\n");
+}
+else{
+    printf("CARTA 2 VENCEU \n");
+}
+
+if (PIB1 > PIB2)
+{
+    printf("CARTA 1 VENCEU \n");
+}
+else{
+    printf("CARTA 2 VENCEU \n");
+}
+
+if (numeropontosturisticos1 > numeropontosturisticos2)
+{
+    printf("CARTA 1 VENCEU \n");
+}
+else{
+    printf("CARTA 2 VENCEU \n");
+}
+
+if (densidade1 < densidade2)
+{
+    printf("CARTA 1 VENCEU \n");
+}
+else{
+    printf("CARTA 2 VENCEU \n");
+}
+
+if (pibpercapta1 > pibpercapta2)
+{
+    printf("CARTA 1 VENCEU \n");
+}
+else{
+    printf("CARTA 2 VENCEU \n");
+}
+
+if (superpoder1 > superpoder2)
+{
+    printf("CARTA 1 VENCEU \n");
+}
+else{
+    printf("CARTA 2 VENCEU \n");
+}
+//%c caracter;
 //%s char com (string) usado em codigo e cidade;
 //%d usado para numeros inteiros como populaçao e pontos turisticos;
 //%f usado para o float duas vezes tamebm em area e PIB;
 //%u unsigned;
 return 0;
-
-
-
-
-}
 
 
 
